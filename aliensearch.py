@@ -3,8 +3,8 @@ from spotisearch import spotpy as sp
 import streamlit as st
 
 st.set_page_config(
-    page_title="Alien Music Recommender"
-    page_icon="👽"
+    page_title="Alien Music Recommender",
+    page_icon="👽")
 
 st.title(" 👽 alien music recommender")
 
