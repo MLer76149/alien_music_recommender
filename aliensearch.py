@@ -2,8 +2,11 @@ import pandas as pd
 from spotisearch import spotpy as sp
 import streamlit as st
 
+st.set_page_config(
+    page_title="Alien Music Recommender"
+    page_icon="👽"
 
-st.title(" 👽 Spotify music recommender")
+st.title(" 👽 alien music recommender")
 
 placeholder = st.empty()
 
